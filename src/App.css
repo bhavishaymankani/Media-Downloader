@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  justify-content: start;
+  
 }
 
 .App-logo {
@@ -22,6 +27,23 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.search-bar {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  justify-content: center;
+  min-height: 100px;
+}
+
+.search-bar > input {
+  height: 100px;
+  border-radius: 0px 0px 0px 0px !important;
+  
+}
+
+.search-input > input {
+  
 }
 
 .App-link {
